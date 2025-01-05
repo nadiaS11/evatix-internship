@@ -1,0 +1,192 @@
+.home {
+  color: rgba(0, 0, 0, 0.8);
+  background-color: #f5f4f1;
+  background-image: url("../asset/home.png");
+  background-position: 0 0;
+}
+
+.container {
+  background: #d3d3d3 50%;
+}
+
+.perspective661 {
+  transform: translate(0) perspective(661px);
+}
+
+.bgGradient {
+  z-index: -1;
+  background-image: radial-gradient(
+    circle closest-side,
+    #ffb546,
+    rgba(255, 255, 255, 0)
+  );
+  display: block;
+  position: absolute;
+  top: -200px;
+  bottom: -200px;
+  left: 0;
+  right: 0;
+}
+
+.willChangeStylesZero {
+  will-change: opacity, transform;
+  opacity: 1;
+  transform: translate3d(187px, -416px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg);
+  transform-style: preserve-3d;
+}
+.willChangeStylesOne {
+  will-change: opacity, transform;
+  opacity: 1;
+  transform: translate3d(-111px, -485px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(11deg) skew(0deg);
+  transform-style: preserve-3d;
+}
+.willChangeStylesTwo {
+  will-change: opacity, transform;
+  opacity: 1;
+  transform: translate3d(103px, -300px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg);
+  transform-style: preserve-3d;
+}
+.willChangeStylesThree {
+  will-change: opacity, transform;
+  opacity: 1;
+  transform: translate3d(-210px, -240px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg);
+  transform-style: preserve-3d;
+}
+.willChangeStylesOrganize {
+  will-change: transform;
+  transform: translate3d(-81.2467px, 111.355px, 0px) scale3d(1, 1, 1)
+    rotateX(0deg) rotateY(0deg) rotateZ(2.85633deg) skew(0deg);
+  transform-style: preserve-3d;
+}
+
+.shapeOne {
+  width: 280px;
+  height: 237.44px;
+  transform: rotate(6.301deg);
+  flex-shrink: 0;
+  background: url("../asset/pic-1.png"), lightgray 50% / contain no-repeat;
+}
+
+.shapeTwo {
+  width: 420px;
+  height: 218.41px;
+  flex-shrink: 0;
+  background: url("../asset/create-blog.png"), lightgray 50% / contain no-repeat;
+}
+.shapeThree {
+  width: 230px;
+  height: 256.69px;
+  flex-shrink: 0;
+  background: url("../asset/pic-status.png"), lightgray 50% / contain no-repeat;
+}
+.btnHome {
+  width: 140px;
+  margin-top: 32px;
+  display: inline-flex;
+  padding: 3.5px 12.003px 4.5px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 7.047px;
+  border-radius: 28px;
+  background: #ffb546;
+  box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset,
+    0px 2px 12px 0px rgba(0, 0, 0, 0.1);
+  color: #000000a6;
+  line-height: 20px;
+}
+
+.bannerBox {
+  background: radial-gradient(
+    70.71% 70.71% at 50% 50%,
+    #ffb546 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerOne {
+  background: url("../asset/banner.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 760px;
+  max-width: 100%;
+}
+
+.bannerTwo {
+  background: url("../asset/banner2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 600px;
+
+  z-index: 0;
+}
+.bannerThree {
+  background: url("../asset/banner3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 600px;
+  width: 90%;
+  margin: 65px 115px 0 115px;
+}
+
+.bgBannerThreeBox {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(
+    70.71% 70.71% at 50% 50%,
+    #ffb546 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-end;
+}
+
+.shapeFour {
+  background: url("../asset/shape4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 252px;
+  flex-shrink: 0;
+}
+
+.transformOne {
+  /* -webkit-backdrop-filter: blur(5px); */
+  backdrop-filter: blur(5px);
+  transform-style: preserve-3d;
+
+  transform: perspective(917px) rotateX(7deg) rotateY(31deg) rotate(4deg)
+    perspective(936px);
+}
+
+@media screen and (min-width: 1025px) {
+  .transformTwo {
+    /* -webkit-backdrop-filter: blur(5px); */
+    /* backdrop-filter: blur(12px); */
+    will-change: transform;
+    transform: translate3d(0px, -24.4686px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(-6.04654deg) rotateZ(0deg) skew(0deg);
+    transform-style: preserve-3d;
+  }
+}
+.willChangeSectionThree {
+  will-change: transform;
+  transform: translate3d(0px, 14.9344px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg);
+  transform-style: preserve-3d;
+}
